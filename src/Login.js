@@ -176,9 +176,10 @@ export function Login() {
       {/* <button onClick = {() => console.log(name, poster, rating, summary)}>Add Movie</button> */}
       {/* Copy the movieList and add new movie to it */}
      {/* <Button onClick = {() => addMovie()} variant = "contained"> */}
-     <Button type="submit" variant = "contained">
-        SUBMIT
+     <Button type="submit" disabled={!formik.isValid} variant = "contained">
+        Login
       </Button>
+      {/* <a href="#" onClick={swithToSignup}>Sign Up</a> */}
   </form>
 );
 }
