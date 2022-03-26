@@ -1,0 +1,314 @@
+
+
+
+/* body{
+  background:url(https://images.wallpaperscraft.com/image/single/cinema_chairs_dark_159821_1280x720.jpg) no-repeat;background-attachment:fixed;background-size:cover;
+} */
+
+/* body{
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+} */
+
+/* 
+.star-container{
+  display: flex;
+  margin: 50px auto 0;
+  max-width: 1200px;
+}
+.box-container{
+  background: #fff;
+  border-radius:20px;
+  color: #6c757d;
+  margin: 0 1%;
+  padding: 2%;
+  transition: all .2s;
+  width: 33.3%;
+}
+.box-container:hover{
+  box-shadow: 0 0.5rem 1rem 0 rgb(0 0 0 / 30%);
+  margin-bottom: 20px;
+  margin-top: -20px;
+  transition: all .2s;
+}
+.box-container h5{
+  font-size: 16px;
+}
+.box-container h6{
+  color: #000;
+  font-size: 40px;
+  margin: 0 0 30px 0;
+}
+.box-container h6 span{
+  font-size: 14px;
+}
+.box-container ul{
+  margin: 20px 0 0 41px;
+  padding: 0;
+  text-align: left;
+}
+.box-container ul li{
+  color: #000;
+  list-style: none;
+  margin: 0 0 20px;
+  position: relative;
+}
+.box-container ul li.dimcolor{
+  color:#ccc;
+}
+.box-container a{
+  background: #0d6efd;
+  border-radius: 5rem;
+  color: #fff;
+  display: block;
+  font-size: 80%;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  opacity: 0.7;
+  padding: 1rem 0;
+  text-decoration: none;
+  transition: all 0.2s;
+  width: 100%;
+}
+.box-container a:hover{
+  background: #0b5ed7;
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+@media (max-width: 760px) {
+  .star-container{
+    display: block;
+  }
+  .box-container{
+    margin: 0 auto 30px;
+    width: 94%;
+  }
+}
+
+.app {
+  background: #209cee;
+  height: 100vh;
+  padding: 30px;
+} */
+
+/* 
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  max-width: 400px;
+  padding: 5px;
+}
+
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+} */
+
+
+
+
+.App {
+  /* color: crimson; */
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.user-profile-pic{
+  height: 300px;
+  width: 300px;
+  /* Zoom in */
+  object-fit: cover;
+  border-radius: 50%
+}
+.userdetail-Image{
+  width: 340px;
+  height: 500px;
+  object-fit: cover;
+  }
+
+  .userdetail-container{
+   width: 340px;
+    height: min-content;
+  }
+   .userdetail-specs{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   }
+
+   .userdetail-name{
+     font-size: 24px;
+     margin: 0;
+     }
+
+     .movie-summary{
+       margin-top: 0;
+            }
+  .userdetail-TypeOfuser{
+    font-size: 18px;
+  }
+ .userdetail-list{
+   display: flex;
+   gap: 16px;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+
+.counter-container{
+  display:flex;
+  gap: 10px;
+}
+
+.like-dislike{
+  font-size: 20px;
+}
+.userdetail-email,
+.userdetail-rating{text-align:left;}
+.user-cover{height:180px;overflow: hidden;}
+
+.add-userdetail-form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 16px;
+}
+.userdetail-poster{width:100%;}
+
+
+.game-box{
+  height:160px;
+  width:160px;
+  /* background-color:white; */
+  border: 2px solid black;
+  font-size:160px;
+  /* center the x */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+body{
+  /* background-color: whitesmoke; */
+}
+
+.board{
+  display: flex;
+  flex-wrap: wrap;
+  width: 492px;
+}
+
+.full-game{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.not-found{
+  text-align: center;
+  font-size: 54px;
+  margin:0;
+}
+
+.movie-detail-container {
+  max-width: 900px;
+  padding: 24px;
+}
+
+.route-container {
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Good{
+  color:#fff;
+  display:inline-block;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 40px 4%;
+  text-align: right;
+  width: 42%;
+}
+.Good:nth-child(2){
+  text-align: left;
+}
+.Good2{
+  font-size: 20px;
+  border-radius: 10%;
+  font-family: sans-serif;
+  margin: 0 0 0 10px;
+}
+.come {
+  font-family: "Pacifico", cursive;
+  }
+
+  .come h1{
+    color: rgb(250, 245, 245);
+    }
+.come h4{
+  color:#fff;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.user-profile-pic {
+  height: 300px;
+  width: 300px;
+  /* zoo in */
+  object-fit: cover;
+  border-radius: 50%;
+}
+.star-rating {
+  border:solid 1px #ccc;
+  font-size:1.5em;
+  height:1.5em;
+  padding:0 .2em;
+  text-align:center;
+  width:5em;
+  margin: 0 auto;
+}
+
+.star-rating input {
+  display:none;}
+
+.star-rating label {
+  color:#ccc;
+  cursor:pointer;
+  float:right;
+  line-height: 30px;
+  margin:0 .08em;
+  
+}
+
+.star-rating :checked ~ label {
+  color:#f90;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color:#fc0;
+}
+
