@@ -50,8 +50,7 @@ export function Login() {
     },
      validationSchema: userdetailValidationSchema,
     onSubmit: (newuserdetail) => {
-      // console.log("onSubmit", newMovie);
-      adduserdetail(newuserdetail);
+       adduserdetail(newuserdetail);
     },
   }); 
 // https://cdn.123telugu.com/content/wp-content/uploads/2022/02/FIR-2.jpg
