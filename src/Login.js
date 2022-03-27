@@ -51,6 +51,7 @@ export function Login() {
     validateOnBlur: true,
      validationSchema: userdetailValidationSchema,
     onSubmit: (newuserdetail) => {
+     console.log(newuserdetail);
        adduserdetail(newuserdetail);
     },
   }); 
@@ -61,7 +62,7 @@ export function Login() {
    
        console.log("onSubmit", newuserdetail);
 
-       fetch(`${API}/userdetails/`, {
+       fetch(`http://localhost:4000/users/signup`, {
        method: "POST",
        body: JSON.stringify(newuserdetail),
        headers: {

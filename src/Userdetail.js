@@ -32,7 +32,7 @@ export function Userdetail({ Image, FirstName, LastName, Email, Password, TypeOf
   // };
   return (
     <Card className="userdetail-container">
-      <div class="user-cover"><img src={Image} alt={FirstName} className="userdetail-poster" /></div>
+     {Image &&  <div class="user-cover"><img src={Image} alt={FirstName} className="userdetail-poster" /></div>}
       <CardContent>
         <div className="userdetail-specs">
           <h2 className="userdetail-name">{FirstName}

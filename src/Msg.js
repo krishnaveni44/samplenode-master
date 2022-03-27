@@ -1,11 +1,11 @@
 import React from "react";
-import { Login } from "./Login";
+import { SignupForm } from "./SignupForm";
 
 export function Msg({ name }) {
   return (
     <div className="come">
       <h1>Welcome, {name} 🥗🎄</h1>
-      <Login />
+      <SignupForm />
     </div>
   );
 }
