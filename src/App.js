@@ -41,45 +41,42 @@ import { AddUserDetail } from "./AddUserDetail";
 export default function App() { 
 
 const INITIAL_USERDETAIL_LIST = [
-  {
+  { 
     "id": "100",
-    "Image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-    "FirstName": "Krishna",
-    "LastName": "Veni", 
-    "Email": "krishnaveni@gmail.com",
-     "Password": "123456",
-     "TypeOfuser": "Admin" 
-
-    },
-  {
+"Image": "https://image3.mouthshut.com/images/imagesp/925004670s.jpg",     
+ "FirstName": "Sachin",
+ "LastName": "Tendulkar",       
+ "Email": "sachintendulkar@gmail.com",
+ "Password": "123456",
+ "TypeOfuser": "Admin" 
+ },    
+  { 
     "id": "101",
-    "image": "https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=281",
-    "FirstName": "Sakthi",
-      "LastName": "Vel",       
-      "Email": "sakthivel@gmail.com",
-      "Password": "7891011",
-      "TypeOfuser": "Manager" 
-  
-  },
-  {
-    "id": "102",
-    "Image":"https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1886&q=80",
+"Image": "https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=281",     
+ "FirstName": "Shiva",
+ "LastName": "Sakthi",       
+ "Email": "shivasakthi@gmail.com",
+ "Password": "123456",
+ "TypeOfuser": "Admin" 
+ }, 
+ { 
+      "id": "102",
+"Image":"https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1886&q=80",
     "FirstName": "Kaaviya",
     "LastName": "Sakthi",       
     "Email": "kaaviyasakthi@gmail.com",
     "Password": "1234567",
     "TypeOfuser": "Employee" 
-
-  },
-  {
-    "id": "103",
-    "Image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    "FirstName": "Shri",
-    "LastName": "Sakthi",       
-    "Email": "shrisakthi@gmail.com",
-    "Password": "345678", 
-    "TypeOfuser": "Employee"  
-  }
+    },
+    { 
+        "id": "103",
+"Image": "https://i0.wp.com/www.ritzmagazine.in/wp-content/uploads/2022/01/Sania_Mirza-770x433-1.jpg?resize=696%2C390&ssl=1",
+      "FirstName": "Shri",
+      "LastName": "Sakthi",       
+      "Email": "shrisakthi@gmail.com",
+      "Password": "345678", 
+      "TypeOfuser": "Employee" 
+     }
   ];
 const [userdetailList, setuserdetailList] = useState(INITIAL_USERDETAIL_LIST);
 

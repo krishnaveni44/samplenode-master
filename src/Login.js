@@ -48,6 +48,7 @@ export function Login() {
     Password: "",
     TypeOfuser: "",
     },
+    validateOnBlur: true,
      validationSchema: userdetailValidationSchema,
     onSubmit: (newuserdetail) => {
        adduserdetail(newuserdetail);
@@ -61,7 +62,7 @@ export function Login() {
        console.log("onSubmit", newuserdetail);
 
        fetch(`${API}/userdetails/`, {
-       method: "GET",
+       method: "POST",
        body: JSON.stringify(newuserdetail),
        headers: {
          "Content-Type": "application/json", 
@@ -69,7 +70,9 @@ export function Login() {
           }).then(() => 
           
           history.push("/userdetails"));
-         
+         if(adduserdetail){
+          alert("Welcome back in. Authenticating..."); 
+         }
         };
    return (
     <form onSubmit = {formik.handleSubmit} className="add-userdetail-form">
@@ -176,7 +179,7 @@ export function Login() {
       {/* <button onClick = {() => console.log(name, poster, rating, summary)}>Add Movie</button> */}
       {/* Copy the movieList and add new movie to it */}
      {/* <Button onClick = {() => addMovie()} variant = "contained"> */}
-     <Button type="submit" disabled={!formik.isValid} variant = "contained">
+     <Button type="submit" variant = "contained">
         Login
       </Button>
       {/* <a href="#" onClick={swithToSignup}>Sign Up</a> */}
