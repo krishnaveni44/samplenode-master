@@ -1,9 +1,6 @@
-
-
-
-/* body{
-  background:url(https://images.wallpaperscraft.com/image/single/cinema_chairs_dark_159821_1280x720.jpg) no-repeat;background-attachment:fixed;background-size:cover;
-} */
+body{
+  background:url(bg.jpg) no-repeat;background-attachment:fixed;background-size:cover;
+}
 
 /* body{
   background: linear-gradient(to right, #0062E6, #33AEFF);
@@ -312,3 +309,16 @@ body{
   color:#fc0;
 }
 
+.css-11mde6h-MuiPaper-root{background:none !important;}
+.css-rb5gc9-MuiFormLabel-root-MuiInputLabel-root{color: #000 !important;}
+.route-container{background: #fff;border-radius: 20px;box-sizing: border-box;margin:0 auto;max-width: 400px;padding: 25px;}
+.come h1{color: #000;margin-top: 0;}
+.field-row{position: relative;transition: all .5s}
+.field-row:focus-within label{background:#fff;font-size:12px;padding:0 5px;top:-7px;transition: all .5s;}
+.field-row label{color:#000;font:caption;font-size:15px;left: 15px;position: absolute;top: 18px}
+.field-row input{border: solid 2px #03929f !important;border-radius: 5px;color: #000 !important;box-sizing: border-box;padding:16.5px 14px;width: 100%}
+.css-p51h6s-MuiInputBase-input-MuiOutlinedInput-input{border: solid 2px #03929f !important;border-radius: 5px;color: #000 !important;}
+.css-173wfxe>span,.css-1z7n62>span,.css-1z7n62,.css-173wfxe{background: #fff !important;z-index: 999;}
+.css-1yl10x9-MuiFormLabel-root-MuiInputLabel-root{background: #fff;color: #000 !important;}
+#TypeOfuser{border: solid 2px #03929f !important;border-radius:5px;padding:16.5px 14px;width: 100%}
+button[type=submit]{background: #03929f;border:none;border-radius:5px;color:#fff;font-weight:bold;padding:10px 20px}
