@@ -31,13 +31,9 @@ export const userdetailValidationSchema = yup.object({
   .min(4, "Need a longer TypeOfuser 😀"),
 });
 
-// export function AddMovie({ movieList, setMovieList }) {
+
 export function AddUserDetail() {
-  // const [name, setName] = useState("");
-  // const [poster, setPoster] = useState("");
-  // const [rating, setRating] = useState("");
-  // const [summary, setSummary] = useState("");
-  // const [trailer, setTrailer] = useState("");
+ 
   const history = useHistory();
   const formik = useFormik({
     initialValues: {
@@ -74,7 +70,7 @@ export function AddUserDetail() {
    return (
     <form onSubmit = {formik.handleSubmit} className="add-userdetail-form">
      <TextField
-        type = "Image"
+        type = "poster"
         label="Photo"
         id = "Image"
         name="Image"
@@ -102,11 +98,7 @@ export function AddUserDetail() {
         helperText = {formik.touched.FirstName && formik.errors.FirstName ? formik.errors.FirstName : ""}
          // onChange={(event) => setName(event.target.value)}    
         />
-              {/* <input
-             type = "text"
-             onChange = {(event) => setName(event.target.value)}
-             placeholder = "Name"
-              /> */}
+             
       <TextField
         type = "text"
         label="LastName"

@@ -7,7 +7,7 @@ import { API } from "./global";
 import { Userdetail } from "./Userdetail";
 
 // const API = "https://my-json-server.typicode.com/krishnaveni44/fun-data"
-// function MovieList({ movieList, setMovieList }){
+
 export function UserdetailList() {
   const history = useHistory();
   const [userdetailList, setuserdetailList] = useState([]);
@@ -24,7 +24,7 @@ export function UserdetailList() {
       .then((data) => data.json())
       .then((mvs) => setuserdetailList(mvs)); // Auto refresh
   };
-  // Delete movie -> Refresh data
+  
   useEffect(() => getuserdetails(), []);
 
   const deleteuserdetail = (id) => {
@@ -49,12 +49,7 @@ export function UserdetailList() {
           deleteButton={<IconButton
             style={{ marginLeft: "auto" }}
             onClick={() => deleteuserdetail(_id)}
-            // onClick={() => {
-            //   console.log(index);
-            //   const copyMovieList = [...movieList];
-            //   copyMovieList.splice(index, 1)
-            //   setMovieList(copyMovieList)
-            // }}  
+              
             aria-label="delete"
             color="error"
           >

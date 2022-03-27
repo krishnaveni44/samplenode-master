@@ -80,35 +80,7 @@ export const SignupForm = () => {
           formik.touched.LastName && formik.errors.LastName ? formik.errors.LastName : ""
         }
          />
-           {/* <TextField
-        type ="text"
-        label="Email"
-        id="email"
-        name="Email"
-        variant="outlined" 
-        //placeholder = "Rating" 
-        onChange={formik.handleChange}
-        value={formik.values.Email}
-        onBlur = {formik.handleBlur}
-        error = {formik.touched.Email && formik.errors.Email}
-        helperText = {formik.touched.Email && formik.errors.Email ? formik.errors.Email : ""}
-         /> */}
-      {/* <label htmlFor="firstName">First Name</label>
-      <input
-        id="firstName"
-        name="FirstName"
-        type="text"
-        onChange={formik.handleChange}
-        value={formik.values.FirstName}
-      /> */}
-      {/* <label htmlFor="lastName">Last Name</label>
-      <input
-        id="lastName"
-        name="LastName"
-        type="text"
-        onChange={formik.handleChange}
-        value={formik.values.LastName}
-      /> */}
+          
       <div className='field-row'>
       <label htmlFor="email">Email Address</label>
       <input
@@ -136,14 +108,7 @@ export const SignupForm = () => {
           <option value="Employee">Employee</option>
         </select>
         </div>
-       {/* <label htmlFor="TypeOfuser">TypeOfuser</label>
-      <input
-        id="TypeOfuser"
-        name="TypeOfuser"
-        type="email"
-        onChange={formik.handleChange}
-        value={formik.values.email}
-      /> */}
+       
       <button type="submit">Submit</button>
     </form>
   );

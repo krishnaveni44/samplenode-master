@@ -10,9 +10,7 @@ import { userdetailValidationSchema } from "./AddUserDetail";
 
 export function EditUserDetail({ userdetailList, setuserdetailList }) {
   const { id } = useParams();  // extracting parameter from the URL
-  // const movie = movieList[id];
-  // console.log(movie);
-  // const [movie, setMovie] = useState({});
+  
   const [userdetail, setuserdetail] = useState(null);
 
   useEffect(() => {
@@ -30,14 +28,7 @@ export function EditUserDetail({ userdetailList, setuserdetailList }) {
 
 console.log(userdetail);
 
-  // const [name, setName] = useState(movie.name);
-  // const [poster, setPoster] = useState(movie.poster);
-  // const [rating, setRating] = useState(movie.rating);
-  // const [summary, setSummary] = useState(movie.summary);
-  // const [trailer, setTrailer] = useState(movie.trailer);
-  // const history = useHistory();
-
-return(
+  return(
   <div>
    { userdetail ? <EditUserDetailForm userdetail={userdetail} /> : <h2>Loading</h2>}
   </div>
@@ -45,12 +36,7 @@ return(
 }
 
   function EditUserDetailForm({ userdetail }){
-    // const [name, setName] = useState(movie.name);
-    // const [poster, setPoster] = useState(movie.poster);
-    // const [rating, setRating] = useState(movie.rating);
-    // const [summary, setSummary] = useState(movie.summary);
-    // const [trailer, setTrailer] = useState(movie.trailer);
-    
+        
     const history = useHistory();
     
     const formik = useFormik({
@@ -64,18 +50,14 @@ return(
       },
        validationSchema: userdetailValidationSchema,
       onSubmit: (updateduserdetail) => {
-        // console.log("onSubmit", newMovie);
+        // console.log("onSubmit", newuserdetail);
         edituserdetail(updateduserdetail);
       },
     }); 
     
     const edituserdetail = (updateduserdetail) => {
       console.log("Updated", updateduserdetail);
-          // 1. method must be PUT & pass id
-          // 2. body - JSON data
-          // 3. headers - JSON data
-          // 4. After PUT is complete -> movie to /movies
-
+         
           fetch(`${API}/userdetails/${userdetail.id}`, {
             method: "PUT",
             body: JSON.stringify(updateduserdetail),
@@ -88,7 +70,7 @@ return(
     return (
     <form onSubmit = {formik.handleSubmit} className="add-userdetail-form">
       <TextField
-        type = "Image"
+        type = "poster"
         label="Photo"
         id = "Image"
         name="Image"
@@ -158,8 +140,6 @@ return(
           <option value="Employee">Employee</option>
         </select>
         
-      {/* <button onClick = {() => console.log(name, poster, rating, summary)}>Add Movie</button> */}
-      {/* Copy the movieList and add new movie to it */}
       <Button color="success" type = "submit" variant = "contained">
         Save
       </Button>

@@ -309,7 +309,7 @@ body{
   color:#fc0;
 }
 
-.css-11mde6h-MuiPaper-root{background:none !important;}
+/* 
 .css-rb5gc9-MuiFormLabel-root-MuiInputLabel-root{color: #000 !important;}
 .route-container{background: #fff;border-radius: 20px;box-sizing: border-box;margin:0 auto;max-width: 400px;padding: 25px;}
 .come h1{color: #000;margin-top: 0;}
@@ -321,4 +321,10 @@ body{
 .css-173wfxe>span,.css-1z7n62>span,.css-1z7n62,.css-173wfxe{background: #fff !important;z-index: 999;}
 .css-1yl10x9-MuiFormLabel-root-MuiInputLabel-root{background: #fff;color: #000 !important;}
 #TypeOfuser{border: solid 2px #03929f !important;border-radius:5px;padding:16.5px 14px;width: 100%}
-button[type=submit]{background: #03929f;border:none;border-radius:5px;color:#fff;font-weight:bold;padding:10px 20px}
+button[type=submit]{background: #03929f;border:none;border-radius:5px;color:#fff;font-weight:bold;padding:10px 20px} */
+.css-11mde6h-MuiPaper-root,.css-1fihds7-MuiPaper-root{background:none !important;}
+.come{background:#fff;box-sizing:border-box;border-radius:20px;margin:0 auto;max-width: 350px;padding:25px}
+.come form input{border:solid 2px #09708f;border-radius:5px;box-sizing:border-box;margin:0 0 15px;padding:10px;width:100%}
+.come form select{border:solid 2px #09708f;border-radius:5px;box-sizing:border-box;margin:0 0 15px;padding:10px;width:100%}
+.come form button{background:#09708f;border:solid 2px #09708f;border-radius:5px;box-sizing:border-box;color:#fff;font-weight:bold;padding:10px 0;width:100%}
+.come h1{color:#000;margin-top:0}
