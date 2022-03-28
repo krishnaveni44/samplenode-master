@@ -50,6 +50,10 @@ export const SignupFormnew = () => {
      // alert(JSON.stringify(values, null, 2));
     },
   });
+  const handleChangeSelect = (event) => {
+  formik.setFieldValue('TypeOfuser', event.target.value);
+
+  }
   return (
     <form onSubmit={formik.handleSubmit}>
        <input
@@ -92,7 +96,7 @@ export const SignupFormnew = () => {
   <option value="Employee">Employee</option>
 </Field> */}
 
-      <select id="TypeOfuser" name="TypeOfuser" onChange={formik.handleChange}
+      <select id="TypeOfuser" name="TypeOfuser" onChange={handleChangeSelect}
         value={formik.values.TypeOfuser}>
           <option value="Admin">Admin</option>
           <option value="Manager">Manager</option>
