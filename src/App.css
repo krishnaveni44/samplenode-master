@@ -6,110 +6,6 @@ body{
   background: linear-gradient(to right, #0062E6, #33AEFF);
 } */
 
-/* 
-.star-container{
-  display: flex;
-  margin: 50px auto 0;
-  max-width: 1200px;
-}
-.box-container{
-  background: #fff;
-  border-radius:20px;
-  color: #6c757d;
-  margin: 0 1%;
-  padding: 2%;
-  transition: all .2s;
-  width: 33.3%;
-}
-.box-container:hover{
-  box-shadow: 0 0.5rem 1rem 0 rgb(0 0 0 / 30%);
-  margin-bottom: 20px;
-  margin-top: -20px;
-  transition: all .2s;
-}
-.box-container h5{
-  font-size: 16px;
-}
-.box-container h6{
-  color: #000;
-  font-size: 40px;
-  margin: 0 0 30px 0;
-}
-.box-container h6 span{
-  font-size: 14px;
-}
-.box-container ul{
-  margin: 20px 0 0 41px;
-  padding: 0;
-  text-align: left;
-}
-.box-container ul li{
-  color: #000;
-  list-style: none;
-  margin: 0 0 20px;
-  position: relative;
-}
-.box-container ul li.dimcolor{
-  color:#ccc;
-}
-.box-container a{
-  background: #0d6efd;
-  border-radius: 5rem;
-  color: #fff;
-  display: block;
-  font-size: 80%;
-  font-weight: bold;
-  letter-spacing: .1rem;
-  opacity: 0.7;
-  padding: 1rem 0;
-  text-decoration: none;
-  transition: all 0.2s;
-  width: 100%;
-}
-.box-container a:hover{
-  background: #0b5ed7;
-  opacity: 1;
-  transition: all 0.2s;
-}
-
-@media (max-width: 760px) {
-  .star-container{
-    display: block;
-  }
-  .box-container{
-    margin: 0 auto 30px;
-    width: 94%;
-  }
-}
-
-.app {
-  background: #209cee;
-  height: 100vh;
-  padding: 30px;
-} */
-
-/* 
-.todo-list {
-  background: #e8e8e8;
-  border-radius: 4px;
-  max-width: 400px;
-  padding: 5px;
-}
-
-.todo {
-  align-items: center;
-  background: #fff;
-  border-radius: 3px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  display: flex;
-  font-size: 12px;
-  justify-content: space-between;
-  margin-bottom: 6px;
-  padding: 3px 10px;
-} */
-
-
-
 
 .App {
   /* color: crimson; */
@@ -328,3 +224,4 @@ button[type=submit]{background: #03929f;border:none;border-radius:5px;color:#fff
 .come form select{border:solid 2px #09708f;border-radius:5px;box-sizing:border-box;margin:0 0 15px;padding:10px;width:100%}
 .come form button{background:#09708f;border:solid 2px #09708f;border-radius:5px;box-sizing:border-box;color:#fff;font-weight:bold;padding:10px 0;width:100%}
 .come h1{color:#000;margin-top:0}
+.css-ao8rxk {background: none}
